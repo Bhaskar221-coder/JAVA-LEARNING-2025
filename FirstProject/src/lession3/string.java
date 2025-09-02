@@ -16,5 +16,10 @@ public class string {
         System.out.println(trimmedString);
         System.out.println(name.substring(5));
         System.out.println(name.substring(2,5));
-        }
+        System.out.println(name.replace('a', 'h'));
+        System.out.println(name.replace("Bhaskar", "Kumar"));
+        System.out.println(name.startsWith("Bh"));
+        System.out.println(name.endsWith("ar"));
+        System.out.println(name.charAt(4));
+    }
 }
