@@ -21,5 +21,6 @@ public class string {
         System.out.println(name.startsWith("Bh"));
         System.out.println(name.endsWith("ar"));
         System.out.println(name.charAt(4));
+        System.out.println(name.indexOf("sk"));
     }
 }
